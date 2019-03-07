@@ -8,8 +8,6 @@ while (password != correctPassword):
     count = count +1
     password = input('Enter password: ')
     
-    
-
 print('correct')
 
 
