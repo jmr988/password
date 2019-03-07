@@ -1,8 +1,13 @@
 correctPassword = 'bye'
 password = input('Enter password: ')
+count = 1
+while (password != correctPassword):
+    print('not correct')
+    print('youve attempted to enter a password ',count, ' times')
+    password = input('Enter password: ')
 
-if password == correctPassword:
-    print('Correct')
-else:
-    print('Not correct')
+    count+=count
+
+print('correct')
+
 
